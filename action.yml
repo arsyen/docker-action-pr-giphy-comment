@@ -2,10 +2,10 @@ name: Giphy PR Comment
 description: A GitHub Action that comments a random Giphy on a PR
 author: arsen
 inputs:
-  github_token:
+  github-token:
     description: 'GitHub token'
     required: true
-  giphy_api_key:
+  giphy-api-key:
     description: 'Giphy API key'
     required: true
 
